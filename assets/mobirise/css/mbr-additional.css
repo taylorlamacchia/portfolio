@@ -139,7 +139,7 @@ body {
   background-color: #82786e !important;
 }
 .bg-warning {
-  background-color: #879a9f !important;
+  background-color: #7dada1 !important;
 }
 .bg-danger {
   background-color: #b1a374 !important;
@@ -226,8 +226,8 @@ body {
 }
 .btn-warning,
 .btn-warning:active {
-  background-color: #879a9f !important;
-  border-color: #879a9f !important;
+  background-color: #7dada1 !important;
+  border-color: #7dada1 !important;
   color: #ffffff !important;
 }
 .btn-warning:hover,
@@ -235,14 +235,14 @@ body {
 .btn-warning.focus,
 .btn-warning.active {
   color: #ffffff !important;
-  background-color: #617479 !important;
-  border-color: #617479 !important;
+  background-color: #56887b !important;
+  border-color: #56887b !important;
 }
 .btn-warning.disabled,
 .btn-warning:disabled {
   color: #ffffff !important;
-  background-color: #617479 !important;
-  border-color: #617479 !important;
+  background-color: #56887b !important;
+  border-color: #56887b !important;
 }
 .btn-danger,
 .btn-danger:active {
@@ -390,22 +390,22 @@ body {
 .btn-warning-outline,
 .btn-warning-outline:active {
   background: none;
-  border-color: #55666b;
-  color: #55666b;
+  border-color: #4c786d;
+  color: #4c786d;
 }
 .btn-warning-outline:hover,
 .btn-warning-outline:focus,
 .btn-warning-outline.focus,
 .btn-warning-outline.active {
   color: #ffffff;
-  background-color: #879a9f;
-  border-color: #879a9f;
+  background-color: #7dada1;
+  border-color: #7dada1;
 }
 .btn-warning-outline.disabled,
 .btn-warning-outline:disabled {
   color: #ffffff !important;
-  background-color: #879a9f !important;
-  border-color: #879a9f !important;
+  background-color: #7dada1 !important;
+  border-color: #7dada1 !important;
 }
 .btn-danger-outline,
 .btn-danger-outline:active {
@@ -474,7 +474,7 @@ body {
   color: #82786e !important;
 }
 .text-warning {
-  color: #879a9f !important;
+  color: #7dada1 !important;
 }
 .text-danger {
   color: #b1a374 !important;
@@ -503,7 +503,7 @@ a.text-info:focus {
 }
 a.text-warning:hover,
 a.text-warning:focus {
-  color: #55666b !important;
+  color: #4c786d !important;
 }
 a.text-danger:hover,
 a.text-danger:focus {
@@ -524,7 +524,7 @@ a.text-black:focus {
   background-color: #82786e;
 }
 .alert-warning {
-  background-color: #879a9f;
+  background-color: #7dada1;
 }
 .alert-danger {
   background-color: #b1a374;
@@ -579,7 +579,7 @@ a:hover {
 }
 .mbr-plan-header.bg-warning .mbr-plan-subtitle,
 .mbr-plan-header.bg-warning .mbr-plan-price-desc {
-  color: #ced6d8;
+  color: #cbdeda;
 }
 .mbr-plan-header.bg-danger .mbr-plan-subtitle,
 .mbr-plan-header.bg-danger .mbr-plan-price-desc {
@@ -1403,7 +1403,7 @@ body {
 .cid-qTypIy48JF {
   padding-top: 90px;
   padding-bottom: 90px;
-  background-color: #f9f9f9;
+  background-color: #ededed;
 }
 .cid-qTypIy48JF h2 {
   text-align: left;
@@ -1471,4 +1471,74 @@ body {
 }
 .cid-qTypIy48JF B {
   color: #7dada1;
+}
+.cid-qTE5hfZEap {
+  padding-top: 105px;
+  padding-bottom: 75px;
+  background-image: url("../../../assets/images/computer-cup-desk-434337-1959x358.jpg");
+}
+.cid-qTE5hfZEap H2 {
+  color: #7dada1;
+}
+.cid-qTEe6x2a0M {
+  padding-top: 90px;
+  padding-bottom: 90px;
+  background-color: #ededed;
+}
+.cid-qTEe6x2a0M .mbr-slider .carousel-control {
+  background: #1b1b1b;
+}
+.cid-qTEe6x2a0M .mbr-slider .carousel-control-prev {
+  left: 0;
+  margin-left: 2.5rem;
+}
+.cid-qTEe6x2a0M .mbr-slider .carousel-control-next {
+  right: 0;
+  margin-right: 2.5rem;
+}
+.cid-qTEe6x2a0M .mbr-slider .modal-body .close {
+  background: #1b1b1b;
+}
+.cid-qTEe6x2a0M .mbr-gallery-item > div::before {
+  content: '';
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background: #554346;
+  background: linear-gradient(to left, #554346, #45505b) !important;
+  opacity: 0;
+  -webkit-transition: 0.2s opacity ease-in-out;
+  transition: 0.2s opacity ease-in-out;
+}
+.cid-qTEe6x2a0M .mbr-gallery-item > div:hover .mbr-gallery-title::before {
+  background: transparent !important;
+}
+.cid-qTEe6x2a0M .mbr-gallery-item > div:hover:before {
+  opacity: 0.7 !important;
+}
+.cid-qTEe6x2a0M .mbr-gallery-title {
+  font-size: .9em;
+  position: absolute;
+  display: block;
+  width: 100%;
+  bottom: 0;
+  padding: 1rem;
+  color: #fff;
+  z-index: 2;
+}
+.cid-qTEe6x2a0M .mbr-gallery-title:before {
+  content: " ";
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  z-index: -1;
+  position: absolute;
+  background: #554346 !important;
+  background: linear-gradient(to left, #554346, #45505b) !important;
+  opacity: 0.7;
+  -webkit-transition: 0.2s background ease-in-out;
+  transition: 0.2s background ease-in-out;
 }
