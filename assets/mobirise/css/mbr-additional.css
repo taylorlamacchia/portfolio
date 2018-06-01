@@ -1475,7 +1475,7 @@ body {
 .cid-qTE5hfZEap {
   padding-top: 105px;
   padding-bottom: 75px;
-  background-image: url("../../../assets/images/computer-cup-desk-434337-1959x358.jpg");
+  background-image: url("../../../assets/images/computer-cup-desk-434342-2000x1200.jpg");
 }
 .cid-qTE5hfZEap H2 {
   color: #7dada1;
@@ -1529,6 +1529,73 @@ body {
   z-index: 2;
 }
 .cid-qTEe6x2a0M .mbr-gallery-title:before {
+  content: " ";
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  z-index: -1;
+  position: absolute;
+  background: #554346 !important;
+  background: linear-gradient(to left, #554346, #45505b) !important;
+  opacity: 0.7;
+  -webkit-transition: 0.2s background ease-in-out;
+  transition: 0.2s background ease-in-out;
+}
+.cid-qTJXnAPpw6 {
+  padding-top: 105px;
+  padding-bottom: 60px;
+  background-image: url("../../../assets/images/computer-cup-desk-434342-2000x1200.jpg");
+}
+.cid-qTJYcKKi0B {
+  padding-top: 90px;
+  padding-bottom: 90px;
+  background-color: #ededed;
+}
+.cid-qTJYcKKi0B .mbr-slider .carousel-control {
+  background: #1b1b1b;
+}
+.cid-qTJYcKKi0B .mbr-slider .carousel-control-prev {
+  left: 0;
+  margin-left: 2.5rem;
+}
+.cid-qTJYcKKi0B .mbr-slider .carousel-control-next {
+  right: 0;
+  margin-right: 2.5rem;
+}
+.cid-qTJYcKKi0B .mbr-slider .modal-body .close {
+  background: #1b1b1b;
+}
+.cid-qTJYcKKi0B .mbr-gallery-item > div::before {
+  content: '';
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background: #554346;
+  background: linear-gradient(to left, #554346, #45505b) !important;
+  opacity: 0;
+  -webkit-transition: 0.2s opacity ease-in-out;
+  transition: 0.2s opacity ease-in-out;
+}
+.cid-qTJYcKKi0B .mbr-gallery-item > div:hover .mbr-gallery-title::before {
+  background: transparent !important;
+}
+.cid-qTJYcKKi0B .mbr-gallery-item > div:hover:before {
+  opacity: 0.7 !important;
+}
+.cid-qTJYcKKi0B .mbr-gallery-title {
+  font-size: .9em;
+  position: absolute;
+  display: block;
+  width: 100%;
+  bottom: 0;
+  padding: 1rem;
+  color: #fff;
+  z-index: 2;
+}
+.cid-qTJYcKKi0B .mbr-gallery-title:before {
   content: " ";
   width: 100%;
   height: 100%;
